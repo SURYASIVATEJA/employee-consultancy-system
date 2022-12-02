@@ -3,7 +3,6 @@ import "../App.css";
 import "../RegistrationPage.css";
 import ScriptTag from 'react-script-tag';
 import axios from "axios";
-import { post } from "jquery";
 
 function RegistrationPage(){
 
