@@ -1,2 +1,3 @@
-./server/ node index
-./client/ npm start
+node /server/index
+cd client
+npm start
