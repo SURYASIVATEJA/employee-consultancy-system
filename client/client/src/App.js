@@ -32,7 +32,7 @@ function App() {
     var { uname, pass } = document.forms[0];
 
     // Find user login info
-    axios.post("/login",{name:uname.value}).then((response)=>{
+    axios.post("https://employee-client-svis.onrender.com/login",{name:uname.value}).then((response)=>{
       if(response.data[0].password === pass.value) {
         setIsSubmitted(true);
         sessionStorage.setItem("loggedUser",JSON.stringify(response.data[0]))
